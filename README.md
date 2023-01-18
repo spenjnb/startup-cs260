@@ -3,4 +3,4 @@ Example start up project
 
 Change from my development environment! 
 
-change from GitHub
+change from GitHub and change again from GitHun to simulate merge conflict
