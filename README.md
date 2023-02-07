@@ -13,6 +13,6 @@
    <br/>READING, https://github.com/webprogramming260/.github/blob/main/profile/html/structure/structure.md
    <br/>
 - HTML Input:
-  <br/>CODEPEN, 
-  <br/>READING, https://github.com/webprogramming260/.github/blob/main/profile/html/input/input.md
+   <br/>CODEPEN, 
+   <br/>READING, https://github.com/webprogramming260/.github/blob/main/profile/html/input/input.md
    <br/>
