@@ -7,6 +7,8 @@ Important links:
 - HTML Intrudcution: 
    <br/>CODEPEM, https://codepen.io/spenjnb/pen/dyjLvvO
    <br/>READING, https://github.com/webprogramming260/.github/blob/main/profile/html/introduction/introduction.md
+   <br/>
 - HTML Structure: 
    <br/>CODEPEN, https://codepen.io/spenjnb/pen/eYjovXp
    <br/>READING, https://github.com/webprogramming260/.github/blob/main/profile/html/structure/structure.md
+   <br/>
