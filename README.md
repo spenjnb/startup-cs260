@@ -4,5 +4,9 @@
 ![startup-picture](https://user-images.githubusercontent.com/98859625/214980690-1ae8191f-cca8-4a68-94c7-f995d7862862.PNG)
 <h3>Learning HTML</h3>
 Important links:
-- HTML Intrudcution: CODEPEM, https://codepen.io/spenjnb/pen/dyjLvvO - READING, https://github.com/webprogramming260/.github/blob/main/profile/html/introduction/introduction.md
-- HTML Structure: CODEPEN, https://codepen.io/spenjnb/pen/eYjovXp - READING, https://github.com/webprogramming260/.github/blob/main/profile/html/structure/structure.md
+- HTML Intrudcution: 
+   <br/>CODEPEM, https://codepen.io/spenjnb/pen/dyjLvvO
+   <br/>READING, https://github.com/webprogramming260/.github/blob/main/profile/html/introduction/introduction.md
+- HTML Structure: 
+   <br/>CODEPEN, https://codepen.io/spenjnb/pen/eYjovXp
+   <br/>READING, https://github.com/webprogramming260/.github/blob/main/profile/html/structure/structure.md
