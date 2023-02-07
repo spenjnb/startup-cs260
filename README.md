@@ -16,3 +16,7 @@
    <br/>CODEPEN, https://codepen.io/spenjnb/pen/WNKWjKr
    <br/>READING, https://github.com/webprogramming260/.github/blob/main/profile/html/input/input.md
    <br/>
+- HTML Media:
+  <br/>CODEPEN, https://codepen.io/spenjnb/pen/NWBmvZm
+  <br/>READING, https://github.com/webprogramming260/.github/blob/main/profile/html/media/media.md
+  <br/>
