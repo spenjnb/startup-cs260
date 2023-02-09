@@ -20,3 +20,6 @@
   <br/>CODEPEN, https://codepen.io/spenjnb/pen/NWBmvZm
   <br/>READING, https://github.com/webprogramming260/.github/blob/main/profile/html/media/media.md
   <br/>
+  
+<h3>Simon asssigment</h3>
+&emsp;Implementing the different html files of Simon helped me apply the concepts that I learned from the HTML lectures and practices. I was able to use most of the material from the readings which I think is really important and very helpful.<br/>I got to practice writing on Visual Studio and using the live server tool which helps me see live what is happening as I work on the webapp. Commiting and pushing the work to Github creates a good personal practice and habit that I am sure is necessary when working on complex and simple proyects.<br/>Overall, it was a great way to practice which I really appreciate, I am sure this will be useful during the creation of my own original website.
