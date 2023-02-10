@@ -31,3 +31,6 @@
 - CSS works in a cascade style. Lower level declarations override higher ones.<br/>
 - It's defined as boxes. elements contents - padding - border - margin.<br/>
 - Box-sizing value can be change to redifine the width and height to include padding and the border.<br/>
+<h4>CSS Selectors</h3>
+- Reading link: https://github.com/webprogramming260/.github/blob/main/profile/css/selectors/selectors.md<br/>
+- CodePem link: https://codepen.io/spenjnb/pen/BaPXjrR<br/>
