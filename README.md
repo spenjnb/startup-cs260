@@ -34,3 +34,6 @@
 <h4>CSS Selectors</h3>
 - Reading link: https://github.com/webprogramming260/.github/blob/main/profile/css/selectors/selectors.md<br/>
 - CodePem link: https://codepen.io/spenjnb/pen/BaPXjrR<br/>
+<h4>CSS Declarations</h4>
+- Reading link: https://github.com/webprogramming260/.github/blob/main/profile/css/declarations/declarations.md<br/>
+- CodePem link: https://codepen.io/spenjnb/pen/rNrXLNM<br/>
