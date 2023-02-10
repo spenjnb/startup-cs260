@@ -37,3 +37,8 @@
 <h4>CSS Declarations</h4>
 - Reading link: https://github.com/webprogramming260/.github/blob/main/profile/css/declarations/declarations.md<br/>
 - CodePem link: https://codepen.io/spenjnb/pen/rNrXLNM<br/>
+<h4>CSS Fonts</h4>
+- Reading link: https://github.com/webprogramming260/.github/blob/main/profile/css/fonts/fonts.md<br/>
+- CodePem link: https://codepen.io/spenjnb/pen/mdjNEVz<br/>
+- Google fonts link: https://fonts.google.com/<br/>
+
