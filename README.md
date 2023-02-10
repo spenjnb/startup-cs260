@@ -41,4 +41,8 @@
 - Reading link: https://github.com/webprogramming260/.github/blob/main/profile/css/fonts/fonts.md<br/>
 - CodePem link: https://codepen.io/spenjnb/pen/mdjNEVz<br/>
 - Google fonts link: https://fonts.google.com/<br/>
-
+<h4>CSS Animations</h4>
+- Reading link: https://github.com/webprogramming260/.github/blob/main/profile/css/animation/animation.md<br/>
+- Simple Animation CodePem link: https://codepen.io/spenjnb/pen/GRBVqrz<br/>
+- Watch Animation CodePem link: https://codepen.io/spenjnb/pen/wvxVWgV<br/>
+- Clouds Animation CodePem link: https://codepen.io/spenjnb/pen/KKBOMWV<br/>
