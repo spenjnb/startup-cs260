@@ -21,7 +21,7 @@
   <br/>READING, https://github.com/webprogramming260/.github/blob/main/profile/html/media/media.md
   <br/>
   
-<h3>Simon asssigment</h3>
+<h3>Simon asssignment</h3>
 &emsp;Implementing the different html files of Simon helped me apply the concepts that I learned from the HTML lectures and practices. I was able to use most of the material from the readings which I think is really important and very helpful.<br/>&emsp;I got to practice writing on Visual Studio and using the live server tool which helps me see live what is happening as I work on the webapp. Commiting and pushing the work to Github creates a good personal practice and habit that I am sure is necessary when working on complex and simple proyects.<br/>&emsp;Overall, it was a great way to practice which I really appreciate, I am sure this will be useful during the creation of my own original website.
 <br/>
 <h3>Learning CSS</h3>
@@ -46,3 +46,10 @@
 - Simple Animation CodePem link: https://codepen.io/spenjnb/pen/GRBVqrz<br/>
 - Watch Animation CodePem link: https://codepen.io/spenjnb/pen/wvxVWgV<br/>
 - Clouds Animation CodePem link: https://codepen.io/spenjnb/pen/KKBOMWV<br/>
+
+<h3>Simon Css Assignment</h3>
+&emsp;Updating the previous HTML files and adding the css file was very interesting this week. I learned that rewriting html files when they were using outdated or old code can be dificult since things can fall apart very easy and one can sometimes get lost because of it. However, the structure of the html themselves was solid and I was able to see were things were moving and interpret what was happening to the webpage. So it important to have solid structures and trust things will come together after everything has been written.<br/>
+&emsp;Bootstrap is very helpful, there are so many tools that make writing html easier and more intuitive. It words well with VS IDE, so having frameworks proves to ve very advantageous. It is important to keep track of the components and look them up online if necessary to make sure we are sure of what is happening.<br/>
+- Naming classes appropiately helps understand css better. <br/>
+- To see boder lines, use "border: size solid color. <br/>
+- Take advantage of positioning by using, absolute/relative, flex, float. <br/>
