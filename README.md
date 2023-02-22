@@ -80,7 +80,7 @@ JavaScript defines several primitives types:
 | `String`    | A textual sequence of characters.                          |
 | `Symbol`    | A unique value.                                            |
 
-<br/><br/>
+<br/>
 Some commonly used objects:
 
 | Type       | Use                                                                                    | Example                  |
