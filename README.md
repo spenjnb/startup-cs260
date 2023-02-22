@@ -80,7 +80,6 @@ emsp;Language based on C, Java, and Scheme. Most used language and all websites 
 | `String`    | A textual sequence of characters.                          |
 | `Symbol`    | A unique value.                                            |
 
-<br/>
 <h4>Some commonly used objects:</h4>
 
 | Type       | Use                                                                                    | Example                  |
