@@ -2,6 +2,12 @@
 &emsp;My idea is creating an app that generates suggestions of things you can do during your free time. To personalize the experience users will take a quiz or have the option during the registration process to provide some information about themselves and the things they like to do. Users will be given options of activities to do with friends, alone, sports, recreational or for a date night. If the people you know are registered they can get updates and notifications of a new event or newly created party.<br/>&emsp;Customers can add pictures to keep and share memories. The app would provide links to places and calculate activities according to the suggested budget input by the users. The goal of the app if to get rid of the question most people face on a night out “where should we go?”.
 
 ![startup-picture](https://user-images.githubusercontent.com/98859625/214980690-1ae8191f-cca8-4a68-94c7-f995d7862862.PNG)
+
+<h3>Important</h3>
+&emsp;Use the ssh console program to shell into your production environment server. <br/>
+ssh -i [key pair file] ubuntu@[yourdomainnamehere] <br/>
+Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
+
 <h3>Learning HTML</h3>
 &emsp;Structure of webpage. Format for webpages o documents, uses elements and tags. It's got attributes and classes thta classify groups of elements. We can add images and links to other pages by using "href" hyperlink. <br/>
 <b>Important links:</b><br/>
