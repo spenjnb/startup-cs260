@@ -67,9 +67,8 @@ emsp;Language based on C, Java, and Scheme. Most used language and all websites 
 - Link : https://github.com/webprogramming260/.github/blob/main/profile/javascript/console/console.md. <br/>
 - To insert JavaScript to HTML file we can either put it in directly or use the src attribute and reference the JS file. <br/>
 - To declare variables we will use either "let" if we want to be able to make changes to variable or "const" if we do not want to change it. <br/>
-## Type
 
-JavaScript defines several primitives types.
+JavaScript defines several primitives types:
 
 | Type        | Meaning                                                    |
 | ----------- | ---------------------------------------------------------- |
