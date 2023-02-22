@@ -68,7 +68,7 @@ emsp;Language based on C, Java, and Scheme. Most used language and all websites 
 - To insert JavaScript to HTML file we can either put it in directly or use the src attribute and reference the JS file. <br/>
 - To declare variables we will use either "let" if we want to be able to make changes to variable or "const" if we do not want to change it. <br/> <br/>
 
-JavaScript defines several primitives types:
+<h4>JavaScript defines several primitives types:</h4>
 
 | Type        | Meaning                                                    |
 | ----------- | ---------------------------------------------------------- |
@@ -81,7 +81,7 @@ JavaScript defines several primitives types:
 | `Symbol`    | A unique value.                                            |
 
 <br/>
-Some commonly used objects:
+<h4>Some commonly used objects:</h4>
 
 | Type       | Use                                                                                    | Example                  |
 | ---------- | -------------------------------------------------------------------------------------- | ------------------------ |
