@@ -66,7 +66,7 @@ emsp;Language based on C, Java, and Scheme. Most used language and all websites 
 - Console object outputs value of texts and objects, timers and iterations. <br/>
 - Link : https://github.com/webprogramming260/.github/blob/main/profile/javascript/console/console.md. <br/>
 - To insert JavaScript to HTML file we can either put it in directly or use the src attribute and reference the JS file. <br/>
-- To declare variables we will use either "let" if we want to be able to make changes to variable or "const" if we do not want to change it. <br/>
+- To declare variables we will use either "let" if we want to be able to make changes to variable or "const" if we do not want to change it. <br/> <br/>
 
 JavaScript defines several primitives types:
 
@@ -79,3 +79,14 @@ JavaScript defines several primitives types:
 | `BigInt`    | A number of arbitrary magnitude.                           |
 | `String`    | A textual sequence of characters.                          |
 | `Symbol`    | A unique value.                                            |
+<br/><br/>
+Some commonly used objects:
+| Type       | Use                                                                                    | Example                  |
+| ---------- | -------------------------------------------------------------------------------------- | ------------------------ |
+| `Object`   | A collection of properties represented by name value pairs. Values can be of any type. | `{a:3, b:'fish'}`        |
+| `Function` | An object that has the ability to be called.                                           | `function a() {}`        |
+| `Date`     | Calendar dates and times.                                                              | `new Date('1995-12-17')` |
+| `Array`    | An ordered sequence of any type.                                                       | `[3, 'fish']`            |
+| `Map`      | A collection of key value pairs that support efficient lookups.                        | `new Map()`              |
+| `JSON`     | A lightweight data-interchange format used to share information across programs.       | `{"a":3, "b":"fish"}`    |
+
