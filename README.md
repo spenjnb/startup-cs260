@@ -61,4 +61,4 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
 - To see boder lines, use "border: size solid color. <br/>
 - Take advantage of positioning by using, absolute/relative, flex, float. <br/>
 <h3>Learning JavaScript</h3>
-emsp;Language based on C, Java, and Scheme. Most used language and all websites use them. It compiles at runtime. Important links to refer to for more information [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs) or [CanIUse](https://caniuse.com/).
+emsp;Language based on C, Java, and Scheme. Most used language and all websites use them. It compiles at runtime. JavaScript does not complain too much (which is actually not good). Important links to refer to for more information [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs) or [CanIUse](https://caniuse.com/).
