@@ -91,3 +91,7 @@ emsp;Language based on C, Java, and Scheme. Most used language and all websites 
 | `Map`      | A collection of key value pairs that support efficient lookups.                        | `new Map()`              |
 | `JSON`     | A lightweight data-interchange format used to share information across programs.       | `{"a":3, "b":"fish"}`    |
 
+<h5>Common Operators</h5>
+- add '+' - subtract '-' - multiply '*'  divide '/'.. <br/>
+- Equality '===' (three) not '==' (two). <br/>
+- JS supports concatenation. <br/>
