@@ -79,8 +79,10 @@ JavaScript defines several primitives types:
 | `BigInt`    | A number of arbitrary magnitude.                           |
 | `String`    | A textual sequence of characters.                          |
 | `Symbol`    | A unique value.                                            |
+
 <br/><br/>
 Some commonly used objects:
+
 | Type       | Use                                                                                    | Example                  |
 | ---------- | -------------------------------------------------------------------------------------- | ------------------------ |
 | `Object`   | A collection of properties represented by name value pairs. Values can be of any type. | `{a:3, b:'fish'}`        |
