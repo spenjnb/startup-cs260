@@ -60,8 +60,9 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
 - Naming classes appropiately helps understand css better. <br/>
 - To see boder lines, use "border: size solid color. <br/>
 - Take advantage of positioning by using, absolute/relative, flex, float. <br/>
+
 <h3>Learning JavaScript</h3>
-emsp;Language based on C, Java, and Scheme. Most used language and all websites use them. It compiles at runtime. JavaScript does not complain too much (which is actually not good). Important links to refer to for more information [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs) or [CanIUse](https://caniuse.com/). JS is a weakly typed language, meaning that variables always have type, but they can change type when assigned a new value. <br/>
+&emsp;Language based on C, Java, and Scheme. Most used language and all websites use them. It compiles at runtime. JavaScript does not complain too much (which is actually not good). Important links to refer to for more information [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs) or [CanIUse](https://caniuse.com/). JS is a weakly typed language, meaning that variables always have type, but they can change type when assigned a new value. <br/>
 - JavaScript console object provides interaction wiht debuggers console. <br/>
 - Console object outputs value of texts and objects, timers and iterations. <br/>
 - Link : https://github.com/webprogramming260/.github/blob/main/profile/javascript/console/console.md. <br/>
