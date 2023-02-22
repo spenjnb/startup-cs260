@@ -3,7 +3,7 @@
 
 ![startup-picture](https://user-images.githubusercontent.com/98859625/214980690-1ae8191f-cca8-4a68-94c7-f995d7862862.PNG)
 <h3>Learning HTML</h3>
-&emsp;Structure of webpage. Format for webpages o documents, uses elements and tags. It's got attributes and classes thta classify groups of elements. We can add images and links to other pages by using "href" hyperlink. Comments <!-- -->. 
+&emsp;Structure of webpage. Format for webpages o documents, uses elements and tags. It's got attributes and classes thta classify groups of elements. We can add images and links to other pages by using "href" hyperlink. Comments "<!-- text -->". <br/>
 <b>Important links:</b><br/>
 - HTML Intrudcution: 
    <br/>CODEPEM, https://codepen.io/spenjnb/pen/dyjLvvO
