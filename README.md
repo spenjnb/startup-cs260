@@ -97,3 +97,9 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
 - Important difference between, Strict Equality '===' (three) and Equality '==' (two). <br/>
 - JS supports concatenation. <br/>
 - Ternary operator, compact 'if else', (if 'a' equals '1' ) a === 1 ? (print '1') console.log(1) (else) : (print 'not 1') console.log('not 1'); <br/>
+<h4>Functions</h4>
+- JS functions are first class objects, meaning they can be assigned a name, passed as a parameter, returned as a result and referenced from an object or array like any other variable. </br>
+- Functions can be defiend anonymously and assigned to a variable. </br>
+- Functions can be declared inside other fuctions. </br>
+- To avoid cluttering due to lots of anonymous functions, JS has arrow syntax. "() => 3"; </br>
+
