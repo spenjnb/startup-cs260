@@ -103,7 +103,7 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
 - Functions can be declared inside other fuctions. </br>
 - To avoid cluttering due to lots of anonymous functions, JS has arrow syntax. "() => 3"; </br>
 <h4>Arrays</h4>
-Some functions associated with arrays in JS.<br/>
+Some functions associated with arrays in J:<br/><br/>
 
 | Function | Meaning                                                   | Example                       |
 | -------- | --------------------------------------------------------- | ----------------------------- |
@@ -120,6 +120,21 @@ Some functions associated with arrays in JS.<br/>
 | every    | Run a function to test if all items match                 | `a.every(i => i < 3)`         |
 | some     | Run a function to test if any items match                 | `a.some(i => 1 < 1)`          |
 
-<br/>
+<h4>Objects and Classes</h4>
+* Objects can be dynamically modify. <br/>
+* We can use object-literal syntax to declare a variable of object type. <br/>
+* Objects have static functions some of them are, 'entries', 'keys', 'values'. <br/>
+* Any method that returns an object is considered a constructor. It can be invoked with `new` operator. <br/>
+* Objects can have any type of property value. Methods can be created as part of the objects encapsulation. <br/>
+* `this` pointer depends upon the scope of where it is used. It objects it refers to the to a pointer to the object. <br/>
+<h4>Classes</h4>
+* Classes can define objects. <br/>
+* It helps clarify the intent to create a reusable component. <br/>
+* Classes have explicit constructors. <br/>
+* To make properties and functions private use prefix `#`. <br/>
+* Classes can be extended using `extends` keyword to define inheritance. <br/>
+* Parameters passed to the parent class are delivered using `super` function. <br/>
+* Methods with same name as parent method override the parent's implementation. <br/>
+* To access parent method we can use `super` keyword. <br/>
 
 
