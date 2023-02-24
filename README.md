@@ -104,6 +104,7 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
 - To avoid cluttering due to lots of anonymous functions, JS has arrow syntax. "() => 3"; </br>
 <h4>Arrays</h4>
 Some functions associated with arrays in JS.<br/>
+
 | Function | Meaning                                                   | Example                       |
 | -------- | --------------------------------------------------------- | ----------------------------- |
 | push     | Add an item to the end of the array                       | `a.push(4)`                   |
