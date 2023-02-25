@@ -12,6 +12,30 @@ nav {
     padding-block: 0.5rem;
 }
 
+main {
+    text-align: center;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.0;
+}
+
+.button {
+    cursor: pointer;
+    border-radius: 100vmax;
+    padding: 1em 1.5em;
+    font-weight: bold;
+    font-size: 0.8rem;
+    box-shadow: 0 1em 1em -1em;
+}
+
+.button:hover,
+.button:focus-visible {
+    background-color: rgb(207, 204, 204);
+}
+
 .container {
     max-width: 1110px;
     padding: 1rem;
@@ -36,27 +60,6 @@ nav {
     }
 }
 
-main {
-    justify-content: center;
-    text-align: center;
-}
-
-body {
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.0;
-}
-
-.button {
-    cursor: pointer;
-    border-radius: 100vmax;
-    padding: 1em 1.5em;
-    font-weight: bold;
-    font-size: 0.8rem;
-    box-shadow: 0 1em 1em -1em;
-}
-
-.button:hover,
-.button:focus-visible {
-    background-color: rgb(207, 204, 204);
+.footer-nav {
+    columns: 2;
 }
