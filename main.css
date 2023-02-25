@@ -77,5 +77,11 @@ body {
 }
 
 .social-icon {
-    width: 2rem;
+    width: 2.5rem;
+}
+
+@media (min-width: 50em) {
+    .social-icon {
+        width: 2.5rem;
+    }
 }
