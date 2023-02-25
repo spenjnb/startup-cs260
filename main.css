@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+nav {
+    font-size: 28px;
+}
+
+.container a {
+    font-size: 30px;
+}
+
+main {
+    justify-content: center;
+    text-align: center;
+}
