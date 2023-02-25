@@ -4,6 +4,7 @@
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.0; 
+    list-style-type: none;
 }
 
 nav {
@@ -68,4 +69,13 @@ body {
 
 .footer-nav {
     columns: 2;
+}
+
+.social-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    width: 2rem;
 }
