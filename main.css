@@ -4,11 +4,59 @@ nav {
     font-size: 28px;
 }
 
+.padding-block {
+    padding-block: 0.5rem;
+}
+
+.padding-inline {
+    padding-block: 0.5rem;
+}
+
+.container {
+    max-width: 1110px;
+    padding: 1rem;
+
+    width: min(max-width, 100% - 1rem);
+    margin-inline: auto;
+}
+
 .container a {
-    font-size: 30px;
+    font-size: 26px;
+}
+
+.even-columns {
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 50em) {
+    .even-columns {
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
 }
 
 main {
     justify-content: center;
     text-align: center;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.0;
+}
+
+.button {
+    cursor: pointer;
+    border-radius: 100vmax;
+    padding: 1em 1.5em;
+    font-weight: bold;
+    font-size: 0.8rem;
+    box-shadow: 0 1em 1em -1em;
+}
+
+.button:hover,
+.button:focus-visible {
+    background-color: rgb(207, 204, 204);
 }
