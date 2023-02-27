@@ -136,5 +136,9 @@ Some functions associated with arrays in J:<br/><br/>
 * Parameters passed to the parent class are delivered using `super` function. <br/>
 * Methods with same name as parent method override the parent's implementation. <br/>
 * To access parent method we can use `super` keyword. <br/>
-
+<h4>Regular Expressions (Regex)</h4>
+&emsp;Regular expressions are patterns used to match combinations in strings. We can create regular expressions usings literal or objects.</br>
+- Use literal if we know the pattern and if we are sure it won't change. </br>
+- Constructor works better if we need to get pattern from user getting it from input. </br>
+- More details in this link: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">Regular Expressions</a> <br/>
 
