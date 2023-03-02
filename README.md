@@ -141,4 +141,10 @@ Some functions associated with arrays in J:<br/><br/>
 - Use literal if we know the pattern and if we are sure it won't change. </br>
 - Constructor works better if we need to get pattern from user getting it from input. </br>
 - More details in this link: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">Regular Expressions</a> <br/>
+<h4>Scope</h4>
+1. Gobal - Visible to all code </br>
+2. Module - Visible to all code running in a module </br>
+3. Function - Visible within a function </br>
+4. Block - Visible within a block of code delimited by curly braces </br>
+Link for more details: <a href="https://github.com/webprogramming260/.github/blob/main/profile/javascript/scope/scope.md">Scope</a> <br/>
 
