@@ -147,4 +147,18 @@ Some functions associated with arrays in J:<br/><br/>
 3. Function - Visible within a function </br>
 4. Block - Visible within a block of code delimited by curly braces </br>
 Link for more details: <a href="https://github.com/webprogramming260/.github/blob/main/profile/javascript/scope/scope.md">Scope</a> <br/>
+<h4>Document Object Model</h4>
+<h5>Event Listeners</h5>
+
+| Event Category | Description           |
+| -------------- | --------------------- |
+| Clipboard      | Cut, copied, pasted   |
+| Focus          | An element gets focus |
+| Keyboard       | Keys are pressed      |
+| Mouse          | Click events          |
+| Text selection | When text is selected |
+
+<br/>
+
+
 
