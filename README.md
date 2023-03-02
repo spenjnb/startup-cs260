@@ -149,7 +149,8 @@ Some functions associated with arrays in J:<br/><br/>
 Link for more details: <a href="https://github.com/webprogramming260/.github/blob/main/profile/javascript/scope/scope.md">Scope</a> <br/>
 <h4>Document Object Model</h4>
 <h5>Event Listeners</h5>
-All DOM elements support the ability to attach a function that gets called when an event occurs on the element. These functions are called event listeners.<br/>
+All DOM elements support the ability to attach a function that gets called when an event occurs on the element.<br/>
+These functions are called event listeners.
 
 | Event Category | Description           |
 | -------------- | --------------------- |
