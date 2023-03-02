@@ -150,7 +150,7 @@ Link for more details: <a href="https://github.com/webprogramming260/.github/blo
 <h4>Document Object Model</h4>
 <h5>Event Listeners</h5>
 All DOM elements support the ability to attach a function that gets called when an event occurs on the element.<br/>
-These functions are called event listeners.
+These functions are called event listeners.<br/>
 
 | Event Category | Description           |
 | -------------- | --------------------- |
