@@ -136,5 +136,31 @@ Some functions associated with arrays in J:<br/><br/>
 * Parameters passed to the parent class are delivered using `super` function. <br/>
 * Methods with same name as parent method override the parent's implementation. <br/>
 * To access parent method we can use `super` keyword. <br/>
+<h4>Regular Expressions (Regex)</h4>
+&emsp;Regular expressions are patterns used to match combinations in strings. We can create regular expressions usings literal or objects.</br>
+- Use literal if we know the pattern and if we are sure it won't change. </br>
+- Constructor works better if we need to get pattern from user getting it from input. </br>
+- More details in this link: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">Regular Expressions</a> <br/>
+<h4>Scope</h4>
+1. Gobal - Visible to all code </br>
+2. Module - Visible to all code running in a module </br>
+3. Function - Visible within a function </br>
+4. Block - Visible within a block of code delimited by curly braces </br>
+Link for more details: <a href="https://github.com/webprogramming260/.github/blob/main/profile/javascript/scope/scope.md">Scope</a> <br/>
+<h4>Document Object Model</h4>
+<h5>Event Listeners</h5>
+All DOM elements support the ability to attach a function that gets called when an event occurs on the element.<br/>
+These functions are called event listeners.<br/><br/>
+
+| Event Category | Description           |
+| -------------- | --------------------- |
+| Clipboard      | Cut, copied, pasted   |
+| Focus          | An element gets focus |
+| Keyboard       | Keys are pressed      |
+| Mouse          | Click events          |
+| Text selection | When text is selected |
+
+<br/>
+
 
 
