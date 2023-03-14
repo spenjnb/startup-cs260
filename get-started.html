@@ -66,7 +66,7 @@
                 </ul>
             </div>
             <!-- <input type="text" class="form-control-sm me-2"> Search bar code-->
-            <button class="button">Get Started</button>
+            <button class="button" onclick="window.location.href='get-started.html';">Get Started</button>
         </div>
     </nav> 
 
@@ -77,67 +77,67 @@
             <li>
               <!-- Includes validation-->
               <label style="padding: 0.5em;" for="text">User: </label>
-              <input type="text" id="text" name="varText" placeholder="text here" required pattern="[Aa].*" />
+              <input type="text" id="text" name="Username"/>
             </li>
             
             <li>
               <p style="font-size: 2em;">Select the option that best applies to you.</p>
               <label style="padding: 0.5em;" for="select">Select: </label>
-              <select id="select" name="varSelect1">
-                <option>option1</option>
-                <option>option2</option>
-                <option>option3</option>
+              <select id="select" name="Best Match">
+                <option>I like the outdoors</option>
+                <option>I like staying Home</option>
+                <option>I like to go places</option>
               </select>
             </li>
 
             <li>
                 <label style="padding: 0.5em;" for="select">Select: </label>
-                <select id="select" name="varSelect2">
-                  <option>option1</option>
-                  <option>option2</option>
-                  <option>option3</option>
+                <select id="select" name="Option 2">
+                  <option>I like big groups</option>
+                  <option>I want to go alone</option>
+                  <option>I am looking for a date</option>
                 </select>
             </li>
 
             <li>
                 <label style="padding: 0.5em;" for="select">Select: </label>
-                <select id="select" name="varSelect3">
-                  <option>option1</option>
-                  <option>option2</option>
-                  <option>option3</option>
+                <select id="select" name="Option 3">
+                  <option>Parks, lakes, hikes</option>
+                  <option>Movies, cooking, games</option>
+                  <option>Try something new</option>
                 </select>
             </li>
 
             <li>
-                <legend>What do you prefer?</legend>
+                <legend>What time of day do you prefer?</legend>
                 <label style="padding: 0.5em;" for="select">Select: </label>
-                <select id="select" name="varSelect4">
-                  <option>option1</option>
-                  <option>option2</option>
-                  <option>option3</option>
+                <select id="select" name="Preference">
+                  <option>Morning</option>
+                  <option>Afternoon</option>
+                  <option>Evening</option>
                 </select>
             </li>
             
             <li>
-                <legend>How much would you like to spend?</legend>
+                <legend>How much money would you like to spend?</legend>
                 <label style="padding: 0.5em;" for="select">Select: </label>
-                <select id="select" name="varSelect5">
-                  <option>option1</option>
-                  <option>option2</option>
-                  <option>option3</option>
+                <select id="select" name="Budget">
+                  <option>0$-20$</option>
+                  <option>20$-50$</option>
+                  <option>50$+</option>
                 </select>
             </li>
 
             <li>
               <label style="padding: 0.8em;" for="tel">Phone Number: </label>
-              <input type="tel" id="phone_number" name="varPhone" placeholder="###-####" pattern="\d{3}-\d{4}" />
+              <input type="tel" id="phone_number" name="Phone" placeholder="###-####" pattern="\d{3}-\d{4}" />
             </li>
 
             <!-- This doesn't show up to the user, but allows the form to send associated data. -->
             <!-- <input type="hidden" id="secretData" name="varSecretData" value="1989 - the web was born" /> -->
           </ul>
       
-          <button type="submit">Submit</button>
+          <button class="button" type="submit" formaction="ideas.html">Submit</button>
         </form>
       </main>
 
