@@ -66,85 +66,75 @@
                 </ul>
             </div>
             <!-- <input type="text" class="form-control-sm me-2"> Search bar code-->
-            <button type="submit" class="btn btn-primary">Get Started</button>
+            <button class="button">Get Started</button>
         </div>
     </nav> 
 
     <main>
         <h1>Tell us about you</h1>
-        <form action="formSubmit.html" method="post">
+        <form>
           <ul>
             <li>
               <!-- Includes validation-->
               <label style="padding: 0.5em;" for="text">User: </label>
               <input type="text" id="text" name="varText" placeholder="text here" required pattern="[Aa].*" />
             </li>
-
-            <li>
-              <label style="padding: 0.5em;" for="email">Email: </label>
-              <input type="email" id="email" name="varEmail" />
-            </li>
             
             <li>
-              <p style="padding: 0.5em; font-size: 2em;">Select the option that best applies to you.</p>
-              <label for="select">Select: </label>
-              <select id="select" name="varSelect">
+              <p style="font-size: 2em;">Select the option that best applies to you.</p>
+              <label style="padding: 0.5em;" for="select">Select: </label>
+              <select id="select" name="varSelect1">
                 <option>option1</option>
-                <option selected>option2</option>
+                <option>option2</option>
                 <option>option3</option>
               </select>
             </li>
 
             <li>
-              <label style="padding: 0.5em;" for="optgroup">OptGroup: </label>
-              <select id="optgroup" name="varOptGroup">
-                <optgroup label="group1">
+                <label style="padding: 0.5em;" for="select">Select: </label>
+                <select id="select" name="varSelect2">
                   <option>option1</option>
-                  <option selected>option2</option>
-                </optgroup>
-                <optgroup label="group2">
+                  <option>option2</option>
                   <option>option3</option>
-                  <option>option4</option>
-                  <option>option5</option>
-                </optgroup>
-                <optgroup label="group3">
-                  <option>option6</option>
-                  <option>option7</option>
-                  <option>option8</option>
-                </optgroup>
-              </select>
+                </select>
             </li>
+
             <li>
-              <fieldset>
-                <legend>checkbox</legend>
-                <label for="checkbox1">checkbox1</label>
-                <input type="checkbox" id="checkbox1" name="varCheckbox" value="checkbox1" />
-                <label for="checkbox2">checkbox2</label>
-                <input type="checkbox" id="checkbox2" name="varCheckbox" value="checkbox2" />
-                <label for="checkbox3">checkbox3</label>
-                <input type="checkbox" id="checkbox3" name="varCheckbox" value="checkbox3" checked />
-              </fieldset>
+                <label style="padding: 0.5em;" for="select">Select: </label>
+                <select id="select" name="varSelect3">
+                  <option>option1</option>
+                  <option>option2</option>
+                  <option>option3</option>
+                </select>
+            </li>
+
+            <li>
+                <legend>What do you prefer?</legend>
+                <label style="padding: 0.5em;" for="select">Select: </label>
+                <select id="select" name="varSelect4">
+                  <option>option1</option>
+                  <option>option2</option>
+                  <option>option3</option>
+                </select>
             </li>
             
             <li>
-                <fieldset>
-                  <legend>checkbox</legend>
-                  <label for="checkbox1">checkbox1</label>
-                  <input type="checkbox" id="checkbox1" name="varCheckbox" value="checkbox1" />
-                  <label for="checkbox2">checkbox2</label>
-                  <input type="checkbox" id="checkbox2" name="varCheckbox" value="checkbox2" />
-                  <label for="checkbox3">checkbox3</label>
-                  <input type="checkbox" id="checkbox3" name="varCheckbox" value="checkbox3" checked />
-                </fieldset>
+                <legend>How much would you like to spend?</legend>
+                <label style="padding: 0.5em;" for="select">Select: </label>
+                <select id="select" name="varSelect5">
+                  <option>option1</option>
+                  <option>option2</option>
+                  <option>option3</option>
+                </select>
             </li>
 
             <li>
-              <label style="padding: 0.8em;" for="tel">Tel: </label>
-              <input type="tel" id="tel" name="varTel" placeholder="###-####" pattern="\d{3}-\d{4}" />
+              <label style="padding: 0.8em;" for="tel">Phone Number: </label>
+              <input type="tel" id="phone_number" name="varPhone" placeholder="###-####" pattern="\d{3}-\d{4}" />
             </li>
 
             <!-- This doesn't show up to the user, but allows the form to send associated data. -->
-            <input type="hidden" id="secretData" name="varSecretData" value="1989 - the web was born" />
+            <!-- <input type="hidden" id="secretData" name="varSecretData" value="1989 - the web was born" /> -->
           </ul>
       
           <button type="submit">Submit</button>
@@ -206,8 +196,7 @@
         </div>
     </footer>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>    
+    <script src="get-started.js">
+    </script>    
 </body>
 </html>
