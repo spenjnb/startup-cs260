@@ -208,11 +208,25 @@ It does not matter what high range port you use. It only matters that you are co
 <br/>
 <h4>HTTP</h4>
 &emsp;HTTP is how the web talks. When a web browser makes a request to a web server it does it using the HTTP protocol. In previous instruction we discussed how to use HTTP. Now, we will talk about the internals of HTTP. Just like becoming fluent in a foreign language make a visit to another country more enjoyable, understanding how to speak HTTP helps you communicate effectively when talking on the web. When a web client (e.g. a web browser) and a web server talk they exchange HTTP requests and responses. The browser will make an HTTP request and the server will generate an HTTP response.<br/>
+
 in your console you can use curl to make the following request.
+<br/>
 
 ```sh
 curl -v -s http://info.cern.ch/hypertext/WWW/Helping.html
 ```
+
+<br/>
+<h5>Verbs</h5>
+There are several verbs that describe what the HTTP request is asking for. The list below only describes the most common ones.
+
+| Verb    | Meaning                                                                                                                                                                                                                                                  |
+| ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GET     | Get the requested resource. This can represent a request to get a single resource or a resource representing a list of resources.                                                                                                                        |
+| POST    | Create a new resource. The body of the request contains the resource. The response should include a unique ID of the newly created resource.                                                                                                             |
+| PUT     | Update a resource. Either the URL path, HTTP header, or body must contain the unique ID of the resource being updated. The body of the request should contain the updated resource. The body of the response may contain the resulting updated resource. |
+| DELETE  | Delete a resource. Either the URL path or HTTP header must contain the unique ID of the resource to delete.                                                                                                                                              |
+| OPTIONS | Get metadata about a resource. Usually only HTTP headers are returned. The resource itself is not returned.                                                                                                                                              |
 
 <br/>
 
