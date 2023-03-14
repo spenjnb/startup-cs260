@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup</title>
+
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Include bootstrap CSS framework -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html"
+                class="navbar-brand mb-0 h1">
+                <img class="d-inline-block align-top"
+                src="icon.PNG" 
+                width="45" height="30"> Startup
+            </a>
+
+            <button
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" 
+            class="navbar-toggler"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="ideas.html" class="nav-link dropdown-toggle"
+                        id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">Ideas</a>
+                        <ul>
+                            <ul class="dropdown-menu"
+                            aria-labelledby="navbarDropdown">
+                            <li><a href="#" class="dropdown-item">Outdoors</a>
+                            </li>
+                            <li><a href="#" class="dropdown-item">Indoors</a>
+                            </li>
+                            <li><a href="#" class="dropdown-item">Trips</a>
+                            </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="resources.html" class="nav-link">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <input type="text" class="form-control-sm me-2"> Search bar code-->
+            <button type="submit" class="btn btn-primary">Get Started</button>
+        </div>
+    </nav> 
+
+    <main>
+        <h1>Tell us about you</h1>
+        <form action="formSubmit.html" method="post">
+          <ul>
+            <li>
+              <!-- Includes validation-->
+              <label style="padding: 0.5em;" for="text">User: </label>
+              <input type="text" id="text" name="varText" placeholder="text here" required pattern="[Aa].*" />
+            </li>
+
+            <li>
+              <label style="padding: 0.5em;" for="email">Email: </label>
+              <input type="email" id="email" name="varEmail" />
+            </li>
+            
+            <li>
+              <p style="padding: 0.5em; font-size: 2em;">Select the option that best applies to you.</p>
+              <label for="select">Select: </label>
+              <select id="select" name="varSelect">
+                <option>option1</option>
+                <option selected>option2</option>
+                <option>option3</option>
+              </select>
+            </li>
+
+            <li>
+              <label style="padding: 0.5em;" for="optgroup">OptGroup: </label>
+              <select id="optgroup" name="varOptGroup">
+                <optgroup label="group1">
+                  <option>option1</option>
+                  <option selected>option2</option>
+                </optgroup>
+                <optgroup label="group2">
+                  <option>option3</option>
+                  <option>option4</option>
+                  <option>option5</option>
+                </optgroup>
+                <optgroup label="group3">
+                  <option>option6</option>
+                  <option>option7</option>
+                  <option>option8</option>
+                </optgroup>
+              </select>
+            </li>
+            <li>
+              <fieldset>
+                <legend>checkbox</legend>
+                <label for="checkbox1">checkbox1</label>
+                <input type="checkbox" id="checkbox1" name="varCheckbox" value="checkbox1" />
+                <label for="checkbox2">checkbox2</label>
+                <input type="checkbox" id="checkbox2" name="varCheckbox" value="checkbox2" />
+                <label for="checkbox3">checkbox3</label>
+                <input type="checkbox" id="checkbox3" name="varCheckbox" value="checkbox3" checked />
+              </fieldset>
+            </li>
+            
+            <li>
+                <fieldset>
+                  <legend>checkbox</legend>
+                  <label for="checkbox1">checkbox1</label>
+                  <input type="checkbox" id="checkbox1" name="varCheckbox" value="checkbox1" />
+                  <label for="checkbox2">checkbox2</label>
+                  <input type="checkbox" id="checkbox2" name="varCheckbox" value="checkbox2" />
+                  <label for="checkbox3">checkbox3</label>
+                  <input type="checkbox" id="checkbox3" name="varCheckbox" value="checkbox3" checked />
+                </fieldset>
+            </li>
+
+            <li>
+              <label style="padding: 0.8em;" for="tel">Tel: </label>
+              <input type="tel" id="tel" name="varTel" placeholder="###-####" pattern="\d{3}-\d{4}" />
+            </li>
+
+            <!-- This doesn't show up to the user, but allows the form to send associated data. -->
+            <input type="hidden" id="secretData" name="varSecretData" value="1989 - the web was born" />
+          </ul>
+      
+          <button type="submit">Submit</button>
+        </form>
+      </main>
+
+    <footer class="bg-dark text-bg-dark">
+        <div class="container">
+            <div class="even-columns">
+                <div>
+                    <a href="#"
+                    class="navbar-brand mb-0 h1">
+                    <img class="d-inline-block align-top" src="icon.PNG" width="65" height="40">Startup</a>
+
+                    <ul class="social-list" role="list" aria-label="Social links">
+                        <li><a aria-label="facebook" href="#">
+                            <svg class="social-icon">
+                                <use xlink:href="images/social-icons.svg#icons8-facebook"></use>
+                            </svg>
+                        </a></li>
+                        <li><a aria-label="twitter" href="#">
+                            <svg class="social-icon">
+                                <use xlink:href="images/social-icons.svg#icons8-twitter"></use>
+                            </svg>
+                        </a></li>
+                        <li><a aria-label="youtube" href="#">
+                            <svg class="social-icon">
+                                <use xlink:href="images/social-icons.svg#icons8-youtube"></use>
+                            </svg>
+                        </a></li>
+                        <li><a aria-label="instagram" href="#">
+                            <svg class="social-icon">
+                                <use xlink:href="images/social-icons.svg#icons8-instagram"></use>
+                            </svg>
+                        </a></li>
+                        <li><a aria-label="pinterest" href="#">
+                            <svg class="social-icon">
+                                <use xlink:href="images/social-icons.svg#icons8-pinterest"></use>
+                            </svg>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <ul role="list">
+                        <li><a href="#">Ideas</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Policy</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <form action="">
+                        <input type="email"><button class="button">Go</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>    
+</body>
+</html>
