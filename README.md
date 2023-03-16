@@ -28,6 +28,9 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
   <br/>READING, https://github.com/webprogramming260/.github/blob/main/profile/html/media/media.md
   <br/>
   
+<h3>Startup JS</h3>
+&emsp;It was a challenge at the beginning, because I had to organize my ideas between what I wanted to do and how to actually implement it. I was thinking in terms of code and it gave me a hard time. Then I decided to think about the functionality of the website and what I wanted it to do. This approach helped me visualize the code in my head better and I was able to start writing some javascript. I guess what I learned the most while working on this project was that it is good to have a good picture of the purpose of the app and start from there instead of trying to just write code. As I started working, all the reading assigments also started coming to my mind and I considered the importance of taking notes and remembering where to go to find more information about JavaScript and its tools. 
+  
 <h3>Simon asssignment</h3>
 &emsp;Implementing the different html files of Simon helped me apply the concepts that I learned from the HTML lectures and practices. I was able to use most of the material from the readings which I think is really important and very helpful.<br/>&emsp;I got to practice writing on Visual Studio and using the live server tool which helps me see live what is happening as I work on the webapp. Commiting and pushing the work to Github creates a good personal practice and habit that I am sure is necessary when working on complex and simple proyects.<br/>&emsp;Overall, it was a great way to practice which I really appreciate, I am sure this will be useful during the creation of my own original website.
 <br/>
