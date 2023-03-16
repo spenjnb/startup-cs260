@@ -307,7 +307,6 @@ NPM knows how to access a massive repository of preexisting packages. You can se
 ➜  cd npmtest
 ➜  npm init -y
 ```
-<br/>
 <h4>Package.json</h4>
 &emsp;If you list the files in directory you will notice that it has created a file named `package.json`. This file contains three main things: 1) Metadata about your project such as its name and the default entry JavaScript file, 2) commands that you can execute to do things like run, test, or distribute your code, and 3) packages that this project depends upon. With NPM initialized to work with your project, you can now use it to install a node package.<br/>
 
