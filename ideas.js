@@ -27,6 +27,7 @@ for (let i = 0; i < userPreferecnes.length; ++i) {
     console.log(userPreferecnes[i]);
 }
 
+// checks user input and creates a new array with chosen options
 function chosenOptions(options) {
     let locationArray = ['I like the outdoors','I like staying Home','I like to go places'];
     let personalityArray = ['I like big groups','I want to go alone','I am looking for a date'];
@@ -38,35 +39,35 @@ function chosenOptions(options) {
     for (let i = 0; i < 3; ++i) {
         if (options[0] === locationArray[i]) {
             packageResult.push(i);
-            console.log(i);
+            //console.log(i);
         }
     }
 
     for (let i = 0; i < 3; ++i) {
         if (options[1] === personalityArray[i]) {
             packageResult.push(i);
-            console.log(i);
+            //console.log(i);
         }
     }
 
     for (let i = 0; i < 3; ++i) {
         if (options[2] === activityArray[i]) {
             packageResult.push(i);
-            console.log(i);
+            //console.log(i);
         }
     }
 
     for (let i = 0; i < 3; ++i) {
         if (options[3] === timeArray[i]) {
             packageResult.push(i);
-            console.log(i);
+            //console.log(i);
         }
     }
 
     for (let i = 0; i < 3; ++i) {
         if (options[4] === budgetArray[i]) {
             packageResult.push(i);
-            console.log(i);
+            //console.log(i);
         }
     }
     return packageResult;
@@ -82,3 +83,4 @@ for (let i = 0; i < preferences.length; ++i) {
 function suggestionNumberOne(userSelection) {
 
 }
+
