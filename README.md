@@ -300,5 +300,35 @@ Documented - The Open API Specification is a good example of tooling that helps 
 
 &emsp;While you could write all of the JavaScript for everything you need, it is always helpful to use preexisting packages of JavaScript for implementing common tasks. To load a package using Node.js you must take two steps. First install the package locally on your machine using the Node Package Manager (NPM), and then include a require statement in your code that references the package name. NPM is automatically installed when you installed Node.js.
 
-NPM knows how to access a massive repository of preexisting packages. You can search for packages on the <a href="https://www.npmjs.com/">NPM website</a>. However, before you start using NPM to install packages you need to initialize you code to use NPM. This is done by creating a directory that will contain your JavaScript and then running npm init. NPM will step you through a series of questions about the project you are creating. You can press the return key for each of questions if you want to accept the defaults. If you are always going to accept all of the defaults you can use npm init -y and skip the Q&A.
+NPM knows how to access a massive repository of preexisting packages. You can search for packages on the <a href="https://www.npmjs.com/">NPM website</a>. However, before you start using NPM to install packages you need to initialize you code to use NPM. This is done by creating a directory that will contain your JavaScript and then running npm init. NPM will step you through a series of questions about the project you are creating. You can press the return key for each of questions if you want to accept the defaults. If you are always going to accept all of the defaults you can use npm init -y and skip the Q&A.<br/>
+
+```sh
+➜  mkdir npmtest
+➜  cd npmtest
+➜  npm init -y
+```
+<br/>
+<h4>Package.json</h4>
+&emsp;If you list the files in directory you will notice that it has created a file named `package.json`. This file contains three main things: 1) Metadata about your project such as its name and the default entry JavaScript file, 2) commands that you can execute to do things like run, test, or distribute your code, and 3) packages that this project depends upon. With NPM initialized to work with your project, you can now use it to install a node package.<br/>
+
+1. Create your project directory
+1. Initialize it for use with NPM by running `npm init -y`
+1. Make sure `.gitignore` file contains `node-modules`
+1. Install any desired packages with `npm install <package name here>`
+1. Add `require('<package name here>')` to your JavaScript code
+1. Run your code with `node main.js`
+<br/>
+
+
+With JavaScript we can write code that listens on a server port (e.g. 8080), receives HTTP requests, processes them, and then responds. We can use this to create a simple web service that we then execute using Node.js.
+
+The following example first initializes the use of NPM and installs the package `http`. The http package contains the functionality for listening on server ports and manipulating HTTP requests.
+
+```sh
+➜ mkdir webservicetest
+➜ cd webservicetest
+➜ npm init -y
+➜ npm install http
+```
+<br/>
 
