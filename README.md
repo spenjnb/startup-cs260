@@ -317,9 +317,8 @@ NPM knows how to access a massive repository of preexisting packages. You can se
 1. Install any desired packages with `npm install <package name here>`
 1. Add `require('<package name here>')` to your JavaScript code
 1. Run your code with `node main.js`
-<br/>
 
-
+<h4>Creating a web service</h4>
 With JavaScript we can write code that listens on a server port (e.g. 8080), receives HTTP requests, processes them, and then responds. We can use this to create a simple web service that we then execute using Node.js.
 
 The following example first initializes the use of NPM and installs the package `http`. The http package contains the functionality for listening on server ports and manipulating HTTP requests.
