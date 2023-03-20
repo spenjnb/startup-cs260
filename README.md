@@ -340,7 +340,7 @@ The following example first initializes the use of NPM and installs the package 
 4. Using `middleware` to add functionality<br/>
 
 <h5>Defining Routes</h5>
-&emsp;HTTP endpoints are implemented in Express by defining routes that call a function based upon an HTTP path. The Express app object supports all of the HTTP verbs as functions on the object. For example, if you want to have a route function that handles an HTTP GET request for the URL path `/store/provo` you would call the `get` method on the app.<br/>
+&emsp;HTTP endpoints are implemented in Express by defining routes that call a function based upon an HTTP path. The Express app object supports all of the HTTP verbs as functions on the object. For example, if you want to have a route function that handles an HTTP GET request for the URL path `/store/provo` you would call the `get` method on the app.<br/><br/>
 
 ```js
 app.get('/store/provo', (req, res, next) => {
@@ -436,3 +436,4 @@ app.listen(port, function () {
   console.log(`Listening on port ${port}`);
 });
 ```
+<br/>
