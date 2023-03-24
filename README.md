@@ -36,7 +36,13 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
 <br/>
 
 <h3>Simon Service</h3>
-&emsp;Working on the service Simon assignment helped me learn and reinforce some of the concepts of web services. I found the debugging tutorial very helpful too, I think debugging in VS is better than doing it with the browser tool. I found it interesting how we can store data in case the server is offline. The code and the comments in the scores.html file help reinforce it. Going through the index.js content and reading the comments helped me undertand better how http resquests, resposnes work. There is still several more details I feel like I want to be able to understand, but Simon has proven to be a great tool when working on my startup project. 
+&emsp;Working on the service Simon assignment helped me learn and reinforce some of the concepts of web services. I found the debugging tutorial very helpful too, I think debugging in VS is better than doing it with the browser tool. I found it interesting how we can store data in case the server is offline. The code and the comments in the scores.html file help reinforce it. Going through the index.js content and reading the comments helped me undertand better how http resquests, resposnes work. There is still several more details I feel like I want to be able to understand, but Simon has proven to be a great tool when working on my startup project. <br/>
+- public. We will use the HTTP Node.js based service to host the front-end application files. This is done with the static file middleware.<br/>
+- When running our service the static file middleware takes care of reading the front-end code from the public directory and returning it to the browser. The service only directly handles the endpoint requests.<br/>
+- run npm init -y.<br/>
+- .gitignore to ignore node_modules.<br/>
+- npm install express writes the package.json file and install all the Express code to the node_modules.<br/>
+- index.js is the entry point that node.js will call when running the web service.<br/>
 
 <h3>Learning CSS</h3>
 &emsp;Cascading Style Sheets(CSS) The tool that is used to give style to the bewsite.
