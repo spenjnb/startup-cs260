@@ -36,7 +36,7 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
 <br/>
 
 <h3>Simon Service</h3>
-&emsp;Working on the service Simon assignment helped me learned and reiforce some of the concepts of wer services. I found the debugging tutorial very helpful too, I think debuggin in VS is better than doing in with the browser tool. I found interesting how we can store data in case we go offline. The code and the comments in the scores.html file help reinforce it. Going through the index.js content and reading the comments helped me undertand better how http resquests, resposnes work. This is still a lot of more details I feel like I want to be able to understand, but Simon has proven to be a great tool when working on my startup project. 
+&emsp;Working on the service Simon assignment helped me learn and reinforce some of the concepts of web services. I found the debugging tutorial very helpful too, I think debugging in VS is better than doing it with the browser tool. I found it interesting how we can store data in case the server is offline. The code and the comments in the scores.html file help reinforce it. Going through the index.js content and reading the comments helped me undertand better how http resquests, resposnes work. There is still several more details I feel like I want to be able to understand, but Simon has proven to be a great tool when working on my startup project. 
 
 <h3>Learning CSS</h3>
 &emsp;Cascading Style Sheets(CSS) The tool that is used to give style to the bewsite.
