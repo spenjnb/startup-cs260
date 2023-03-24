@@ -34,6 +34,10 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
 <h3>Simon asssignment</h3>
 &emsp;Implementing the different html files of Simon helped me apply the concepts that I learned from the HTML lectures and practices. I was able to use most of the material from the readings which I think is really important and very helpful.<br/>&emsp;I got to practice writing on Visual Studio and using the live server tool which helps me see live what is happening as I work on the webapp. Commiting and pushing the work to Github creates a good personal practice and habit that I am sure is necessary when working on complex and simple proyects.<br/>&emsp;Overall, it was a great way to practice which I really appreciate, I am sure this will be useful during the creation of my own original website.
 <br/>
+
+<h3>Simon Service</h3>
+&emsp;Working on the service Simon assignment helped me learned and reiforce some of the concepts of wer services. I found the debugging tutorial very helpful too, I think debuggin in VS is better than doing in with the browser tool. I found interesting how we can store data in case we go offline. The code and the comments in the scores.html file help reinforce it. Going through the index.js content and reading the comments helped me undertand better how http resquests, resposnes work. This is still a lot of more details I feel like I want to be able to understand, but Simon has proven to be a great tool when working on my startup project. 
+
 <h3>Learning CSS</h3>
 &emsp;Cascading Style Sheets(CSS) The tool that is used to give style to the bewsite.
 <br/>
