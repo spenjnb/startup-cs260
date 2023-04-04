@@ -44,6 +44,99 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
 - npm install express writes the package.json file and install all the Express code to the node_modules.<br/>
 - index.js is the entry point that node.js will call when running the web service.<br/>
 
+<h3>Simon Login</h3>
+&emsp;With a service implemented registration and login users is now possible. We can use HTTP requests ti implement this functionality. Auth end point will use POST request with user info to perform registration. Get resquest will retreive authtoken that will be use to login users in the future. This authtoken is a unique one that will be randomly generated (using UUID). Important to install necesary packages ( npm install express cookie-parser mongodb uuid bcrypt ). 
+<h4>Code to do the handling of the HTTP requests</h4>
+We can then read the email and password directly out of the `req.body` object. We can test that this is working by temporarily including them in the response.
+
+```js
+app.use(express.json());
+
+app.post('/auth/create', (req, res) => {
+  res.send({
+    id: 'user@id.com',
+    email: req.body.email,
+    password: req.body.password,
+  });
+});
+```
+
+```sh
+➜  curl -X POST localhost:8080/auth/create -H 'Content-Type:application/json' -d '{"email":"marta@id.com", "password":"toomanysecrets"}'
+
+{"id":"user@id.com","email":"marta@id.com","password":"toomanysecrets"}
+```
+check to see if we already have a user with that email address. 
+```js
+app.post('/auth/create', async (req, res) => {
+  if (await getUser(req.body.email)) {
+    res.status(409).send({ msg: 'Existing user' });
+  } else {
+    const user = await createUser(req.body.email, req.body.password);
+    res.send({
+      id: user._id,
+    });
+  }
+});
+```
+Storing our users in Mongo. We need to set up our code to connect to and use the database
+```js
+const { MongoClient } = require('mongodb');
+
+const userName = process.env.MONGOUSER;
+const password = process.env.MONGOPASSWORD;
+const hostname = process.env.MONGOHOSTNAME;
+
+const url = `mongodb+srv://${userName}:${password}@${hostname}`;
+const client = new MongoClient(url);
+const collection = client.db('authTest').collection('user');
+```
+Implementation of the `getUser` and `createUser` functions. We  will need to a real authentication token after.
+```js
+function getUser(email) {
+  return collection.findOne({ email: email });
+}
+
+async function createUser(email, password) {
+  const user = {
+    email: email,
+    password: password,
+    token: 'xxx',
+  };
+  return collection.insertOne(user);
+}
+```
+```js
+const uuid = require('uuid');
+
+token: uuid.v4();
+```
+To hash our passwords we will use the `bcrypt` package.
+```js
+const bcrypt = require('bcrypt');
+
+async function createUser(email, password) {
+  // Hash the password before we insert it into the database
+  const passwordHash = await bcrypt.hash(password, 10);
+
+  const user = {
+    email: email,
+    password: passwordHash,
+    token: uuid.v4(),
+  };
+  await collection.insertOne(user);
+
+  return user;
+}
+```
+
+
+We import the `cookieParser` object and then tell our app to use it. When a user is successfully created, or logs in, we set the cookie header. Since we are storing an authentication token in the cookie we want to make it as secure as possible, and so we use the `httpOnly`, `secure`, and `sameSite` options.
+
+- `httpOnly` tells the browser to not allow JavaScript running on the browser to read the cookie.
+- `secure` requires HTTPS to be used when sending the cookie back to the server.
+- `sameSite` will only return the cookie to the domain that generated it.<br/>
+
 <h3>Simon DB</h3>
 &emsp;Server is not the same as service, I was a little confused about both of these definitions, but I think after working on this assignment and getting some help I understand de differences. Server is the physical computer where website runs and the service makes it so that we can implement and make our website functional. Without service we could not store user data for example. Setting up mongodb was a great learning concept. Setting up the environments helped me understand better how to kkeep credentials secure and safe.<br/>
 - node *file.js* *port* (if necessary).<br/>
