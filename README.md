@@ -46,7 +46,7 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
 
 <h3>Simon DB</h3>
 &emsp;Server is not the same as service, I was a little confused about both of these definitions, but I think after working on this assignment and getting some help I understand de differences. Server is the physical computer where website runs and the service makes it so that we can implement and make our website functional. Without service we could not store user data for example. Setting up mongodb was a great learning concept. Setting up the environments helped me understand better how to kkeep credentials secure and safe.<br/>
-- node <file.js> <port> if necessary.<br/>
+- node *file.js* *port* (if necessary).<br/>
 - npm install mongodb.<br/>
 
 <h3>Learning CSS</h3>
