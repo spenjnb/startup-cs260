@@ -44,6 +44,11 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
 - npm install express writes the package.json file and install all the Express code to the node_modules.<br/>
 - index.js is the entry point that node.js will call when running the web service.<br/>
 
+<h3>Simon DB</h3>
+&emsp;Server is not the same as service, I was a little confused about both of these definitions, but I think after working on this assignment and getting some help I understand de differences. Server is the physical computer where website runs and the service makes it so that we can implement and make our website functional. Without service we could not store user data for example. Setting up mongodb was a great learning concept. Setting up the environments helped me understand better how to kkeep credentials secure and safe.<br/>
+- node *file.js* *port* (if necessary).<br/>
+- npm install mongodb.<br/>
+
 <h3>Simon Login</h3>
 &emsp;With a service implemented registration and login users is now possible. We can use HTTP requests ti implement this functionality. Auth end point will use POST request with user info to perform registration. Get resquest will retreive authtoken that will be use to login users in the future. This authtoken is a unique one that will be randomly generated (using UUID). Important to install necesary packages ( npm install express cookie-parser mongodb uuid bcrypt ). 
 <h4>Code to do the handling of the HTTP requests</h4>
@@ -137,10 +142,33 @@ We import the `cookieParser` object and then tell our app to use it. When a user
 - `secure` requires HTTPS to be used when sending the cookie back to the server.
 - `sameSite` will only return the cookie to the domain that generated it.<br/>
 
-<h3>Simon DB</h3>
-&emsp;Server is not the same as service, I was a little confused about both of these definitions, but I think after working on this assignment and getting some help I understand de differences. Server is the physical computer where website runs and the service makes it so that we can implement and make our website functional. Without service we could not store user data for example. Setting up mongodb was a great learning concept. Setting up the environments helped me understand better how to kkeep credentials secure and safe.<br/>
-- node *file.js* *port* (if necessary).<br/>
-- npm install mongodb.<br/>
+The login authorization endpoint needs to get the hashed password from the database and compare it to the provided password.
+
+```js
+app.post('/auth/login', async (req, res) => {
+  const user = await getUser(req.body.email);
+  if (user) {
+    if (await bcrypt.compare(req.body.password, user.password)) {
+      setAuthCookie(res, user.token);
+      res.send({ id: user._id });
+      return;
+    }
+  }
+  res.status(401).send({ msg: 'Unauthorized' });
+});
+```
+With everything in place to create credentials and login using the credentials, we can now implement the `getMe` endpoint.
+```js
+app.get('/user/me', async (req, res) => {
+  authToken = req.cookies['token'];
+  const user = await collection.findOne({ token: authToken });
+  if (user) {
+    res.send({ email: user.email });
+    return;
+  }
+  res.status(401).send({ msg: 'Unauthorized' });
+});
+```
 
 <h3>Learning CSS</h3>
 &emsp;Cascading Style Sheets(CSS) The tool that is used to give style to the bewsite.
