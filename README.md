@@ -35,6 +35,13 @@ Example: ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click <br/>
 &emsp;Implementing the different html files of Simon helped me apply the concepts that I learned from the HTML lectures and practices. I was able to use most of the material from the readings which I think is really important and very helpful.<br/>&emsp;I got to practice writing on Visual Studio and using the live server tool which helps me see live what is happening as I work on the webapp. Commiting and pushing the work to Github creates a good personal practice and habit that I am sure is necessary when working on complex and simple proyects.<br/>&emsp;Overall, it was a great way to practice which I really appreciate, I am sure this will be useful during the creation of my own original website.
 <br/>
 
+<h3>Simon Css Assignment</h3>
+&emsp;Updating the previous HTML files and adding the css file was very interesting this week. I learned that rewriting html files when they were using outdated or old code can be dificult since things can fall apart very easy and one can sometimes get lost because of it. However, the structure of the html themselves was solid and I was able to see were things were moving and interpret what was happening to the webpage. So it important to have solid structures and trust things will come together after everything has been written.<br/>
+&emsp;Bootstrap is very helpful, there are so many tools that make writing html easier and more intuitive. It words well with VS IDE, so having frameworks proves to ve very advantageous. It is important to keep track of the components and look them up online if necessary to make sure we are sure of what is happening.<br/>
+- Naming classes appropiately helps understand css better. <br/>
+- To see boder lines, use "border: size solid color. <br/>
+- Take advantage of positioning by using, absolute/relative, flex, float. <br/>
+
 <h3>Simon Service</h3>
 &emsp;Working on the service Simon assignment helped me learn and reinforce some of the concepts of web services. I found the debugging tutorial very helpful too, I think debugging in VS is better than doing it with the browser tool. I found it interesting how we can store data in case the server is offline. The code and the comments in the scores.html file help reinforce it. Going through the index.js content and reading the comments helped me undertand better how http resquests, resposnes work. There is still several more details I feel like I want to be able to understand, but Simon has proven to be a great tool when working on my startup project. <br/>
 - public. We will use the HTTP Node.js based service to host the front-end application files. This is done with the static file middleware.<br/>
@@ -169,6 +176,8 @@ app.get('/user/me', async (req, res) => {
   res.status(401).send({ msg: 'Unauthorized' });
 });
 ```
+<h3>Simon WebSocket</h3>
+&emsp;The way websites work is through HTTP requests and responses. However, this type of connection is very simple and not enough if we want our website to be more complex. Websockets offer a more flexible type of connection. Http connectiong could be like a letter kind of communication where we send a letter and receive a response. Websockets could be thought as more like a phone call, an improved way of communicating, a more persistent type of connection that does not have to be dropped. THere are some downsides, now that connections do not have to be dropped if client makes too many request the one server it is connected to will have to handle all those requests. Http would open new connections to other servers and handle better many requets. Http is still slower than ws in most cases. <br/>
 
 <h3>Learning CSS</h3>
 &emsp;Cascading Style Sheets(CSS) The tool that is used to give style to the bewsite.
@@ -193,12 +202,7 @@ app.get('/user/me', async (req, res) => {
 - Watch Animation CodePem link: https://codepen.io/spenjnb/pen/wvxVWgV<br/>
 - Clouds Animation CodePem link: https://codepen.io/spenjnb/pen/KKBOMWV<br/>
 
-<h3>Simon Css Assignment</h3>
-&emsp;Updating the previous HTML files and adding the css file was very interesting this week. I learned that rewriting html files when they were using outdated or old code can be dificult since things can fall apart very easy and one can sometimes get lost because of it. However, the structure of the html themselves was solid and I was able to see were things were moving and interpret what was happening to the webpage. So it important to have solid structures and trust things will come together after everything has been written.<br/>
-&emsp;Bootstrap is very helpful, there are so many tools that make writing html easier and more intuitive. It words well with VS IDE, so having frameworks proves to ve very advantageous. It is important to keep track of the components and look them up online if necessary to make sure we are sure of what is happening.<br/>
-- Naming classes appropiately helps understand css better. <br/>
-- To see boder lines, use "border: size solid color. <br/>
-- Take advantage of positioning by using, absolute/relative, flex, float. <br/>
+
 
 <h3>Learning JavaScript</h3>
 &emsp;Language based on C, Java, and Scheme. Most used language and all websites use them. It compiles at runtime. JavaScript does not complain too much (which is actually not good). Important links to refer to for more information [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs) or [CanIUse](https://caniuse.com/). JS is a weakly typed language, meaning that variables always have type, but they can change type when assigned a new value. <br/>
