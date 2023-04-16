@@ -179,6 +179,12 @@ app.get('/user/me', async (req, res) => {
 <h3>Simon WebSocket</h3>
 &emsp;The way websites work is through HTTP requests and responses. However, this type of connection is very simple and not enough if we want our website to be more complex. Websockets offer a more flexible type of connection. Http connectiong could be like a letter kind of communication where we send a letter and receive a response. Websockets could be thought as more like a phone call, an improved way of communicating, a more persistent type of connection that does not have to be dropped. THere are some downsides, now that connections do not have to be dropped if client makes too many request the one server it is connected to will have to handle all those requests. Http would open new connections to other servers and handle better many requets. Http is still slower than ws in most cases. <br/>
 
+<h3>Simon React</h3>
+&emsp;React is js framework, open-source library that came out of facebook and it was made public no too long ago. Many developers use it today and it's become a standard for many when creating websites and apps. It uses components and interfaces that are very efficient and quickly to learn and easy to use for users. It also makes it so that delopers do not have to use as much code as they would using only regular JS. Working on the simon react assignment and following the tutorial in gitthub was very helpulf and informative. It was nice to see how the multi-page application of simon became a single page one when introduccing the framework. Imporant commands to remember:<br/>
+- npm install (create-reacct-app)<br/>
+- npm run build<br/>
+- npx create-react-app template-react </br>
+
 <h3>Learning CSS</h3>
 &emsp;Cascading Style Sheets(CSS) The tool that is used to give style to the bewsite.
 <br/>
